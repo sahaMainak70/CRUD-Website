@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url("billing.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.container{
+	min-width: 500px;
+	color: #fff;
+	padding: 5px 20px;
+	background: transparent;
+	border: 2px solid rgba(255, 255, 255, 0.2);
+	border-radius: 20px;
+	backdrop-filter: blur(20px);
+	box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+}
+
+.container-one{
+	height: 500px;
+	min-width: 500px;
+	color: #fff;
+	padding: 5px 20px;
+	background: transparent;
+	border: 2px solid rgba(255, 255, 255, 0.2);
+	border-radius: 20px;
+	backdrop-filter: blur(20px);
+	box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	position: relative;
+	top: 50;
+	left: 15px;
+}
+
+.container h1{
+	text-align: center;
+}
+
+.input-box{
+	width: 100%;
+	height: 70px;
+	margin: 30px;
+	padding: 10px 0;
+}
+
+.input-box input{
+	width: 90%;
+	height: 100%;
+	background-color: transparent;
+	border: none;
+	outline: none;
+	border: 2px solid rgba(255, 255, 255, 0.2);
+	border-radius: 40px;
+	font-size: 17px;
+	padding: 20px 45px 20px 20px;
+	color: #fff;
+}
+
+.input-box input::placeholder{
+	color: #fff;
+}
+
+.container .btn{
+	width: 100%;
+	height: 45px;
+	background: #fff;
+	border: none;
+	outline: none;
+	border-radius: 40px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+	cursor: pointer;
+	color: #333;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.content-table{
+    border-collapse: collapse;
+    min-width: 400px;
+    margin: 40px 0;
+    font-size: 20px;
+
+}
+
+.content-table thead tr{
+    background-color: #009879;
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.content-table th,
+.content-table td{
+    padding: 12px 15px;
+    color: black;
+}
+
+.content-table tbody tr{
+    border-bottom: 1px solid #dddddd;
+    background-color: rgba(255, 255, 255, 0.459);
+}
+
+.output-box{
+    float: right;
+    color: black;
+}
+
+.output-box input{
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.459);
+    font-size: 17px;
+    padding-right: 0;
+    border: none;
+    outline: none;
+}
+
+.box{
+	text-align: center;
+	padding: 50px 50px;
+	width: 100vh;
+}
+
+.header{
+	color: #fff;
+	font-size: 130px;
+	font-weight: 900;
+	letter-spacing: 150px;
+	position: absolute;
+	top: 20;
+	left: 22%;
+}
+
+.container .option{
+	padding: 40px;
+	margin: 30px;
+	display: inline-block;
+}
+
+.option button{
+	width: 126px;
+	height: 125px;
+	padding: 20px;
+	margin: 0px;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	background: #fff;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.555);
+	border-radius: 20px;
+	color: #333;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.option button:hover{
+	background: rgba(255, 255, 255, 0.459);
+}
+
+.navbar{
+    width: 100%;
+    height: 74px;
+}
+
+nav ul{
+    float: left;
+    margin-left: 25px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 25px 12px;
+    font-size: 20px;
+}
+
+.input{
+	width: 90%;
+	height: 50px;
+	margin: 30px;
+	padding: 10px 0;
+	border-collapse: collapse;
+}
+
+.input input{
+	width: 90%;
+	height: 100%;
+	background-color: transparent;
+	border: none;
+	outline: none;
+	border: 2px solid rgba(255, 255, 255, 0.2);
+	border-radius: 40px;
+	font-size: 17px;
+	padding: 20px 45px 20px 20px;
+	color: #fff;
+}
+
+.input label{
+	display: inline-block;
+}
+
+.svg-icon.search-icon {
+	/* display: inline-block; */
+	width: 30px;
+	height: 30px;
+	background: transparent;
+	display: flex;
+  
+	/* On hover: blue strokes */
+	&:focus,
+	&:hover {
+	  .search-path {
+		stroke: #299ecc;
+	  }
+	}
+  
+	/* On click: thicker black strokes  */
+	&:active {
+	  .search-path {
+		stroke: #111516;
+		stroke-width: 2px;
+	  }
+	}
+  }
+
+.input button{
+	height: 50px;
+	background: transparent;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	position: relative;
+	vertical-align: bottom;
+}
+
+.select{
+	width: 90%;
+	height: 50px;
+	padding: 10px 0;
+}
+
+.select select{
+	width: 90%;
+	height: 100%;
+	background-color: transparent;
+	border: none;
+	outline: none;
+	border: 2px solid rgba(255, 255, 255, 0.2);
+	border-radius: 40px;
+	font-size: 17px;
+	/* padding: 20px 20px 20px 20px; */
+	color: #fff;
+}
+
+select option{
+	background-color: #333;
+}

@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-image: url("billing.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.alert-align{
+    margin: 10px 510px;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100vh;
+}
+
+.box .Wrapper{
+	min-width: 500px;
+	color: #fff;
+	padding: 5px 20px;
+	background: transparent;
+	border: 2px solid rgba(255, 255, 255, 0.2);
+	border-radius: 20px;
+	backdrop-filter: blur(20px);
+	box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+}
+
+.Wrapper h1{
+	text-align: center;
+}
+
+.content{
+    border-collapse: collapse;
+    min-width: 400px;
+    margin: 40px 0;
+    font-size: 20px;
+
+}
+
+.content thead tr{
+    background-color: #009879;
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.content th,
+.content td{
+    padding: 12px 15px;
+    color: black;
+}
+
+.content tbody tr{
+    border-bottom: 1px solid #dddddd;
+    background-color: rgba(255, 255, 255, 0.459);
+}
+
+.btn{
+	width: 100%;
+	height: 45px;
+	background: #fff;
+	border: none;
+	outline: none;
+	border-radius: 40px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+	cursor: pointer;
+	color: #333;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.Wrapper p{
+	color: #fff;
+	font-size: 20px;
+}
